@@ -10,10 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2.3.4
         with:
-          token: ${{ secrets.INSIGHTS_TOKEN }}
+          token: ${{81fbdbb7c3cf465eb5ad6fa5ae2dc764}}
       - uses: actions/setup-node@v2.1.5
         with:
           node-version: 14.17.0
-      - uses: gayanvoice/github-profile-views-counter-action@3.0.0
-        env:
-          INSIGHTS_TOKEN: ${{ secrets.INSIGHTS_TOKEN }}
+      - uses: ${{81fbdbb7c3cf465eb5ad6fa5ae2dc764}}
